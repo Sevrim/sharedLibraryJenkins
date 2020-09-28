@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo hello world'
+                sh 'echo was ein Wunder'
                 script {
                     simple.info 'Starting'
                     simple.warning 'Nothing to do!'
